@@ -2,7 +2,7 @@
 ## Langkah-langkah Praktikum
 
 ### Membuat Dokumen HTML
-
+Membuat CSS dasar
 ### 1. Buatlah dokumen HTML serperti berikut
 
 ![Gambar 1](Screenshoot/CSS1.png)
@@ -10,7 +10,7 @@
 <p>
 
 #### Selanjutnya run program dan akan lansung menuju ke browser untuk melihat hasilnya
-![Gambar 1](Screenshoot/output2.png)
+![Gambar 2](Screenshoot/output2.png)
 <p>
 <p>
 
@@ -19,63 +19,48 @@
 <p>
 <p>
 
-![Gambar 2](Screenshoot/Cssdasar.png)
+![Gambar 3](Screenshoot/Cssdasar.png)
 <p>
 <p>
 
 #### Selanjutnya simpan perubahan, dan lakukan run lagi untuk melihat hasilnya
 
-![Gambar 2](Screenshoot/output 2.png)
+![Gambar 4](Screenshoot/output4.png)
 
 
-`<img src="namafilegambar widht="ukurangambaryangdinginkan" title="judulgamabaryangakandisisipkan">`
+### Menambahkan Inline CSS
+#### Kemudian tambahkan deklarasi inline CSS pada tag `<p>` seperti berikut. <p>
+`<p style="text-align: center; color: #ccd8e4;">`
+<p> 
 
-![Gambar 1](Screenshoot/output5.png)
+### Simpan kembali dan refresh kembali browser untuk melihat perubahannya
+<p>
 
-### Menambahkan Hyperlink
-Untuk menambahkan hyperlink pada halaman HTML menggunakan attribut tag `<nav>` pertama kita buat terlebih dahulu file html baru yang ingin di direct di folder yang sama dengan pada halaman html pertama
-`<nav>` 
+![Gambar 5](Screenshoot/ouput4.png)
+<p>
+<p>
 
-`<a href="filehtml1">Dasar HTML</a>`
+### 4. Membuat CSS Eksternal
+#### Buat file baru terlebih dahulu dengan nama `style_.css` kemudian bautlah deklarasi CSS seperti berikut
+<p>
+<p>
 
-`<a href="halamanhtmlyangdidirect">Halaman 2</a>`
+![Gambar 6](Screenshoot/cssinternal.png)
+<p>
+<p>
 
-`<a href="http://www.google.com">Halaman Web Eksternal Google</a>`
+Kemudian tambahkan tag `<link>` untuk menuju file css yang sudah dibuat pada bagian `<head>`
+<p>
+`<head>`
+`<!-- menyisipkan css eksternal --> <link rel="stylesheet" href="style_eksternal.css" type="text/css">`
+`<head>`
+ <p>
+ <p>
+ Selanjutnya run lagi untuk melihat hasilnya
+ <p>
+ <p>
 
-`</nav>`
+ ![Gambar 7](Screeshoot/csseksternal.png)
+<p>
+<p>
 
-#### Hasil Tampilan attribut tag Hyperlink
-![Gambar 1](Screenshoot/output3.png)
-
-#### Hasil direct ke link yang dibuat
-![Gambar 1](Screenshoot/output4.png)
-
-#### Jawab Pertanyaan Berikut
-1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag ?
-2. Apa perbedaan dari tag `<p>` dengan tag `<br>`, berikan penjelasannya !
-3. Apa perbedaan atribut title dan alt pada tag <img>, berikan penjelasannya !
-4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak Berikan penjelasannya !
-5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top, _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut ?
-
-#### Jawab
-1. Pasti terjadi error jika ada kesalahan pada penulisan tag karena program tidak bisa memebedakan mana tag mana attribut
-
-2. Tag paragraph `<p>` dimulai dan diakhiri dengan tag penutup `</p>` sebagai akhir dari sebuah paragraph dan akan memasuki baris baru. Sedangkan pada tag `<br/>` juga memiliki fungsi yang sama, yakni untuk membuat paragraph baru atau barisan baru.
-
-3. `<title>` Title image adalah atribut lain yang dapat ditambahkan ke tag gambar dalam HTML. Title image ini digunakan untuk memberikan judul untuk gambar Anda. Text yang Anda masukkan di dalam tag judul tidak akan ditampilkan kepada pengguna ketika gambar tidak dapat ditampilkan. Sebaliknya, tag judul gambar ini ditampilkan saat Anda menyorot gambar dengan mouse.
-
-    `<alt>` Alt text atau text alternatif adalah atribut yang ditambahkan ke tag gambar dalam HTML. Teks ini muncul di dalam wadah gambar ketika gambar tidak dapat ditampilkan. Ini membantu mesin pencari memahami apa isi dari gambar tersebut. Text alternatif juga sangat membantu dalam kasus gambar yang tidak ditemukan pada halaman atau gambar rusak, lihat seperti gambar dibawah ini.
-
-4. Tidak perlu di isi semua karena jia tidak di isi program akan memabaca ukuran gambar pada format ukuran file gambar yang disisipkan
-
-5. Link Attribut Target
-- `_blank` Berfungsi untuk membuka link di tab baru
-- `_self` Berfungsi untuk membuka link di frame yang satu tingkat di atas frame link tersebut berada.
-secara simple-nya begini :
-jika di website(1) di dalamnya ada website(2) lalu di website(2) ini ada link dan kita klik, maka link akan terbuka di website(1)
-- `_top` Berfungsi untuk membuka link di frame paling atas (paling luar).
-secara simpel-nya :
-jika di website(1) di dalamnya ada website(2) lalu di website(2) di dalamnya ada website (3) lalu di website (3) ini ada link dan kita klik, maka link akan terbuka di website(1)
-- `_parent` Berfungsi untuk untuk membuka link di frame yg kita pilih
-secara simpel-nya:
-jika di website(1) di dalamnya ada website(2), website(3), website(4), dan seterusnya. terus kita taro link di website(1) dan kita perintah link tersebut terbuka di frame website(3) lalu kita klik linknya, maka link akan terbuka di frame website(3)
