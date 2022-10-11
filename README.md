@@ -36,7 +36,7 @@ Membuat CSS dasar
 ### Simpan kembali dan refresh kembali browser untuk melihat perubahannya
 <p>
 
-![Gambar 5](Screenshoot/ouput5.png)
+![Gambar 5](Screenshoot/output5.png)
 <p>
 <p>
 
