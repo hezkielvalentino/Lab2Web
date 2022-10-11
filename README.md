@@ -28,7 +28,7 @@ Membuat CSS dasar
 ![Gambar 4](Screenshoot/output4.png)
 
 
-### Menambahkan Inline CSS
+### 3. Menambahkan Inline CSS
 #### Kemudian tambahkan deklarasi inline CSS pada tag `<p>` seperti berikut. <p>
 `<p style="text-align: center; color: #ccd8e4;">`
 <p> 
@@ -36,7 +36,7 @@ Membuat CSS dasar
 ### Simpan kembali dan refresh kembali browser untuk melihat perubahannya
 <p>
 
-![Gambar 5](Screenshoot/ouput4.png)
+![Gambar 4](Screenshoot/ouput4.png)
 <p>
 <p>
 
