@@ -72,3 +72,8 @@ Kemudian tambahkan tag `<link>` untuk menuju file css yang sudah dibuat pada bag
 <p>
 
 ![Gambar 8](Screenshoot/cssselector.png)
+<p>
+<p>
+
+#### Kemudian simpan kembali dan run untuk melihat hasil perubahannya
+![Gambar 9](Screenshoot/output%203.png)
