@@ -14,10 +14,12 @@ Attribut untuk tag paragraf adalah `<p>` dan untuk attribut tag `<title>` bergun
 ![Gambar 1](Screenshoot/output2.png)
 <p>
 <p>
+
 ### 2.  Mendeklarasikan CSS Internal
 #### Kemudian tambahkan deklarasi css internal seperti di gambar berikut
 <p>
 <p>
+
 ![Gambar 2](Screenshoot/Cssdasar.png)
 <p>
 <p>
