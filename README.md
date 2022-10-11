@@ -62,7 +62,7 @@ Kemudian tambahkan tag `<link>` untuk menuju file css yang sudah dibuat pada bag
  <p>
  <p>
 
- ![Gambar 7](Screeshoot/csseksternal.png)
+ ![Gambar 7](Screenshoot/csseksternal.png)
 <p>
 <p>
 
