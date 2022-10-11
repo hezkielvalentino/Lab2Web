@@ -1,8 +1,7 @@
 # Lab2Web
 ## Langkah-langkah Praktikum
 
-### Membuat Dokumen HTML
-Membuat CSS dasar
+### Membuat CSS Dasar
 ### 1. Buatlah dokumen HTML serperti berikut
 
 ![Gambar 1](Screenshoot/CSS1.png)
