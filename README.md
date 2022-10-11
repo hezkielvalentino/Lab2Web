@@ -33,7 +33,7 @@ Membuat CSS dasar
 `<p style="text-align: center; color: #ccd8e4;">`
 <p> 
 
-### Simpan kembali dan refresh kembali browser untuk melihat perubahannya
+#### Simpan kembali dan refresh kembali browser untuk melihat perubahannya
 <p>
 
 ![Gambar 5](Screenshoot/output5.png)
