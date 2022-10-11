@@ -50,8 +50,11 @@
 
 Kemudian tambahkan tag `<link>` untuk menuju file css yang sudah dibuat pada bagian `<head>`
 <p>
+
 `<head>`
+
 `<!-- menyisipkan css eksternal --> <link rel="stylesheet" href="style_eksternal.css" type="text/css">`
+
 `<head>`
  <p>
  <p>
