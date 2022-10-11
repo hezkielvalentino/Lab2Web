@@ -66,3 +66,9 @@ Kemudian tambahkan tag `<link>` untuk menuju file css yang sudah dibuat pada bag
 <p>
 <p>
 
+### 5. Menambahkan CSS Selector
+#### Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. buka kembali file `style_eksternal.css` dan tambahkan command seperti yang ada pada gambar berikut
+<p>
+<p>
+
+![Gambar 8](Screenshoot/cssselector.png)
