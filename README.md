@@ -2,7 +2,6 @@
 ## Langkah-langkah Praktikum
 
 ### Membuat Dokumen HTML
-Attribut untuk tag paragraf adalah `<p>` dan untuk attribut tag `<title>` bergungsi untuk menembahkan judul pada paragraf
 
 ### 1. Buatlah dokumen HTML serperti berikut
 
@@ -23,7 +22,9 @@ Attribut untuk tag paragraf adalah `<p>` dan untuk attribut tag `<title>` bergun
 ![Gambar 2](Screenshoot/Cssdasar.png)
 <p>
 <p>
+
 #### Selanjutnya simpan perubahan, dan lakukan run lagi untuk melihat hasilnya
+
 ![Gambar 2](Screenshoot/output 2.png)
 
 
